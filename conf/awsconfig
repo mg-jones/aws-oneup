@@ -1,0 +1,11 @@
+[default]
+region=us-west-2
+output=json
+aws_access_key_id=[INSERT YOUR KEY]
+aws_secret_access_key=[INSERT YOUR SECRET]
+
+# Example profile
+[profile testing]
+region=us-west-2
+role_arn=arn:aws:iam::ACCOUNTID:role/ROLENAME
+source_profile=default
